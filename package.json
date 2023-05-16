@@ -1,0 +1,16 @@
+{
+  "name": "cauchy",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.75",
+    "vue": "^3.3.2"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  }
+}
