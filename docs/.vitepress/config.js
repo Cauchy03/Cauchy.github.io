@@ -4,6 +4,11 @@ export default defineConfig({
   // title: 'my Blog',
   lastUpdated: true, // 开启最近更新时间
   themeConfig: {
+    logo: '/avatar.jpg',
+    description: '自定义的 description',   // meta 中的描述 用于SEO
+    // 注入到当前页面的 HTML <head> 中的标签
+    head: [['link', { rel: 'icon', href: '/avatar.jpg' }]], //浏览器的标签栏的网页图标]],
+    outDir: '../../dist', // 打包后输出目录配置
     // 导航栏
     nav: [
       { text: 'Home', link: '/' },
