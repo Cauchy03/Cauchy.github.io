@@ -7,7 +7,21 @@ export default defineConfig({
     logo: '/avatar.jpg',
     description: '自定义的 description',   // meta 中的描述 用于SEO
     // 注入到当前页面的 HTML <head> 中的标签
-    head: [['link', { rel: 'icon', href: '/avatar.jpg' }]], //浏览器的标签栏的网页图标]],
+    head: [
+      ["link", { rel: "icon", href: "/avatar.jpg" }],
+      [
+        "link",
+        {
+          rel: "stylesheet",
+          href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css",
+        },
+      ],
+      [
+        "script",
+        {
+          src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js",
+        },
+      ]], //浏览器的标签栏的网页图标]],
     outDir: '../../dist', // 打包后输出目录配置
     // 导航栏
     nav: [
@@ -36,6 +50,11 @@ export default defineConfig({
           collapsed: false // 是否可折叠
         }
       ]
+    },
+    // 页脚
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Evan You'
     },
     // github 编辑
     editLink: {
