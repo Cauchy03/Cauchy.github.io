@@ -44,7 +44,8 @@ export default defineConfig({
             // { text: 'guide_index', link: '/guide/' }, // /guide/index.md
             { text: 'HTML', link: '/guide/HTML' },
             { text: 'CSS', link: '/guide/CSS' },
-            { text: 'JS', link: '/guide/JavaScript' }
+            { text: 'JS', link: '/guide/JavaScript' },
+            { text: 'TS', link: '/guide/TypeScriptz' },
           ],
           collapsible: true, // 是否折叠
           collapsed: false // 是否可折叠
