@@ -45,8 +45,9 @@ export default defineConfig({
             { text: 'HTML', link: '/guide/HTML' },
             { text: 'CSS', link: '/guide/CSS' },
             { text: 'JS', link: '/guide/JavaScript' },
-            { text: 'TS', link: '/guide/TypeScriptz' },
+            { text: 'TS', link: '/guide/TypeScript' },
             { text: 'Project', link: '/guide/Project' },
+            { text: '工程化', link: '/guide/工程化' },
           ],
           collapsible: true, // 是否折叠
           collapsed: false // 是否可折叠
