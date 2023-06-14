@@ -50,6 +50,7 @@ export default defineConfig({
             { text: '工程化', link: '/guide/工程化' },
             { text: '手写代码', link: '/guide/手写代码' },
             { text: '性能优化', link: '/guide/性能优化' },
+            { text: '代码输出', link: '/guide/代码输出' },
           ],
           collapsible: true, // 是否折叠
           collapsed: false // 是否可折叠
