@@ -52,6 +52,7 @@ export default defineConfig({
             { text: '性能优化', link: '/guide/性能优化' },
             { text: '代码输出', link: '/guide/代码输出' },
             { text: '计算机网络和浏览器', link: '/guide/计算机网络和浏览器' },
+            { text: '非技术问答', link: '/guide/非技术问答' },
           ],
           collapsible: true, // 是否折叠
           collapsed: false // 是否可折叠
